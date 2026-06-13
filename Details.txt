@@ -1,0 +1,64 @@
+PROJECT OVERVIEW
+This Python project is part of the Data Analytics Project 4 (Optional Mastery Phase) for the DecodeLabs Internship. The script processes e-commerce order data to analyze which customer referral sources generate the highest total revenue. It then automatically generates a boardroom-ready vertical column chart that strictly adheres to professional consultant design principles:
+
+Architectural Honesty: The Y-axis baseline starts exactly at zero to prevent visual distortion.
+
+High Data-Ink Ratio: Heavy gridlines, borders, backgrounds, and tick marks are removed to minimize cognitive load.
+
+Strategic Focus: High-performing channels are emphasized using color, while lower channels are kept neutral.
+
+Explanatory Action Title: The chart title delivers an immediate takeaway insight rather than just describing the data topic.
+
+REQUIRED FILES IN YOUR FOLDER
+Before running the script, ensure you have your raw data file saved in the exact same folder as the script. The script expects this specific file name:
+
+Dataset for Data Analytics.xlsx - Sheet1.csv
+
+PREREQUISITES AND LIBRARIES
+To execute this script, you must have Python installed on your computer along with two essential data science libraries. You can install these libraries using your command prompt or terminal by running the following commands:
+
+pip install pandas
+pip install matplotlib
+
+HOW TO RUN THE SCRIPT
+
+Copy the provided Python script code and save it as a file named "analyze_sales.py" in your project folder.
+
+Ensure your dataset CSV file is in that same folder.
+
+Open your terminal, command prompt, or Python IDE.
+
+Navigate to your project folder directory.
+
+Execute the script using the following command:
+
+python analyze_sales.py
+
+PROJECT OUTPUTS
+When the script finishes running, it will generate and save two brand new files directly into your project folder:
+
+referral_source_revenue_clean.png
+
+This is the high-resolution, presentation-ready column chart graphic. You can copy and paste this directly onto a presentation slide for your manager or executives.
+
+referral_source_revenue_summary.csv
+
+This is a spreadsheet summary containing the exact calculated total revenue in USD and the percentage contribution for every single referral source channel.
+
+SUMMARY DATA REVEALED BY THE ANALYSIS
+You can use these exact metrics for your presentation notes or slide bullet points:
+
+Total Overall Revenue: $1,264,761.96
+
+Instagram Revenue: $275,285.45 (21.77% contribution) - Top Channel
+
+Email Revenue: $261,808.55 (20.70% contribution) - Second Top Channel
+
+Google Revenue: $250,441.48 (19.80% contribution)
+
+Facebook Revenue: $250,410.90 (19.80% contribution)
+
+Direct Referral Revenue: $226,815.58 (17.93% contribution)
+
+Core Business Recommendation to Present:
+Instagram and Email combined drive over 42.5% of total company revenue. Management should consider optimizing marketing spending by shifting portions of the budget away from lower-performing channels like traditional Facebook and Direct Referrals, reinvesting those funds into scaling up high-ROI Instagram campaigns and Email newsletter initiatives.
